@@ -1,6 +1,6 @@
 # Sendcloud
 
-TODO: Write a gem description
+Ruby api for sohu sendcloud api
 
 ## Installation
 
@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+#### Configure
+
+```ruby
+
+Sendcloud.setup do |config|
+  config.api_user = 'your api user'
+  config.api_key = 'your api key'
+end
+
+```
+
+#### call the api
+
+```ruby
+
+Sendcloud::Mail.send(to: 'test@example.com', from: 'test@example.com', subject: 'test', html: 'test')
+
+```
+
 
 ## Contributing
 
