@@ -1,6 +1,7 @@
 require 'rest-client'
 require 'sendcloud/mail'
 require 'sendcloud/mail_list'
+require 'sendcloud/template'
 require 'sendcloud/stats'
 require 'sendcloud/unsubscribes'
 require 'sendcloud/bounces'
