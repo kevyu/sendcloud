@@ -1,6 +1,6 @@
 # Sendcloud
 
-Ruby api for sohu sendcloud api
+Ruby client for sohu sendcloud api
 
 ## Installation
 
@@ -29,7 +29,7 @@ end
 
 ```
 
-#### call the api
+#### Call the api
 
 ```ruby
 
